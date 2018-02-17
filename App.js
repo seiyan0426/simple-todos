@@ -7,7 +7,7 @@ import { ApolloProvider } from 'react-apollo';
 import TodoList from './TodoList';
 
 const link = new HttpLink({
-  uri: 'https://api.graph.cool/simple/v1/cj98a57z515m50115c8of9cu7',
+  uri: 'https://api.graph.cool/simple/v1/cjdqt2rys72nv0147jsnzijb8',
 });
 const cache = new InMemoryCache();
 const client = new ApolloClient({ link, cache });
